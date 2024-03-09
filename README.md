@@ -2,7 +2,7 @@
 [BatchScript] Starting from a selected directory, let's user to a path without navigating through other directories or decoys, like a path password.
 Open Dir/ Path after the path. (Daniel Thrasher: sketch after the sketch)
 
-og: opens the path/file after the dir. closes, done :)
+og: opens the path/file after the dir. closes, done :) <br>
 v2: loops back in typo. issues:closes on space enter, doesn't close if not incld file extension.+
 v2.1: additional variable to reduce future dir change edits.
 v2.5: fixed not including file extension not closing cmd.
