@@ -2,7 +2,6 @@
 color A
 :loop
 Set dir0=%userprofile%/downloads/
-Set dir=
 Set /p dir="Open directory or file: Downloads/"
 if "%dir%"=="" (
   start "" "%dir0%"
