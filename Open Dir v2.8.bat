@@ -16,10 +16,10 @@ start "" "%dir0%\%dir%" && exit
   rem don't delete this line
     
   ) else (
-    echo Invalid path. Please try again. in %dir0%
+    echo Invalid path. Please try again.
     goto :loop
   )
-) else (
-  echo Invalid path/file. Please enter a valid path. in %dir0%
-  goto :loop
-)
+    ) else (
+    echo Invalid path. Please try again.
+    goto :loop
+  )
